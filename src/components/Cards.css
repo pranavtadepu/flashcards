@@ -1,0 +1,68 @@
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/white-wall.png');
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #4caf50;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .arrow-button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s;
+    margin-top: 20px;
+  }
+  
+  .arrow-button:hover {
+    color: #555;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
